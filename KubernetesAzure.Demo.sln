@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KubernetesAzure.Demo", "KubernetesAzure.Demo\KubernetesAzure.Demo.csproj", "{5DD6C17C-2545-4814-9585-DF26C152B7DE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{06743DDE-0665-4524-A67F-44EA9E10BB6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DD6C17C-2545-4814-9585-DF26C152B7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD6C17C-2545-4814-9585-DF26C152B7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD6C17C-2545-4814-9585-DF26C152B7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD6C17C-2545-4814-9585-DF26C152B7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06743DDE-0665-4524-A67F-44EA9E10BB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06743DDE-0665-4524-A67F-44EA9E10BB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06743DDE-0665-4524-A67F-44EA9E10BB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06743DDE-0665-4524-A67F-44EA9E10BB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C939BFF-FCB0-4427-A4AF-E58A76820286}
+	EndGlobalSection
+EndGlobal

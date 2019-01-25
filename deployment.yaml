@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: kubernetesazuredemo-deployment
+spec:
+  replicas: 1
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: azurekubernetesdemo
+    spec:
+      containers:
+      - name: azurekubernetesdemo
+        image: kubernetesdemo.azurecr.io/kubernetesazuredemo:latest
+        ports:
+        - containerPort: 5000
+      imagePullSecrets:
+      - name: kubernetesdemoregistrykey

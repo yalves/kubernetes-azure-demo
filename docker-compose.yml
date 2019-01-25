@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  kubernetesazure.demo:
+    image: ${DOCKER_REGISTRY-}kubernetesazuredemo
+    build:
+      context: .
+      dockerfile: KubernetesAzure.Demo/Dockerfile
